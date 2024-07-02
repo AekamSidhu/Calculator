@@ -26,7 +26,6 @@ def clear():
 def calculate():
     global calculation
     calculation = calculation.replace("X", "*")
-    calculation = calculation.replace("÷", "/")
     result = ""
     if calculation != "":
         try:
